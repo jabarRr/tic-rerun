@@ -1,4 +1,9 @@
 .cell{
+    box-sizing: border-box;
+    font-size: 40px;
+    text-align: center;
+    
+    
     width: 300px;
     height: 300px;
     background-color: bisque;
@@ -18,4 +23,8 @@ h1{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 
+}
+.playerInfoForm{
+    text-align: center;
+    margin-bottom: 20px;
 }
